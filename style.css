@@ -1,0 +1,116 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height:100%;
+    width:100%;
+
+    background-image: url("MET_clg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.one
+{
+    color: red;
+}
+
+.two
+{
+    color: orange;
+}
+
+.navbar div
+{
+    font-size: 30px;
+    font-weight: bold;
+    /* padding-top: 5px; */
+   
+    
+   
+
+}
+
+.navbar
+{
+    /* padding-top: 20px; */
+    margin-top: -200px;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color:rgb(228, 16, 16);
+    justify-content:space-evenly;
+   
+}
+
+.logo
+{
+    background-image: url("MET logo.webp");
+}
+.navbar ul li 
+{
+    display:inline-block;
+   
+    font-size:20px;
+    list-style-type: none;
+    
+    padding:10px 80px;
+}
+
+.navbar ul li a
+{
+    padding-top: 20px;
+}
+.navbar li
+{
+    list-style-type: none;
+   
+}
+
+.navbar a:hover
+{
+    color:burlywood;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+   
+    font-size: large;
+}
+
+.About-Us
+{
+    height:100px;
+    width:500px;
+    margin-top: 200px;
+    margin-left: 600px;
+    
+
+}
+.About-Us h1
+{
+    color:aliceblue;
+}
+.About-Us p
+{   color:aliceblue;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+footer
+{
+    margin-top: 400px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: black;
+}
